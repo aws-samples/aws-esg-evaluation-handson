@@ -1,15 +1,18 @@
 # ESG Evaluation Handson
 
+ESG投資に不可欠な企業のESG評価をデータ活用で効率的に行う方法を学べるハンズオンです。
 
 ## Content
 
 * 気候変動に対する企業の取り組みを評価する業務を自然言語処理を用いて効率化する
    * 講義資料: [ESG評価に対する自然言語処理の活用Workshop](https://speakerdeck.com/icoxfog417/esgping-jia-nidui-suruzi-ran-yan-yu-chu-li-falsehuo-yong-workshop)
-   * ハンズオン: [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/icoxfog417/esg-evaluation-by-nlp/blob/master/notebooks/check_esg_evaluation_automatically.ipynb)
+   * ハンズオン: [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws-samples/aws-esg-evaluation-handson/blob/master/notebooks/check_esg_evaluation_automatically.ipynb)
 
 ## How to start handson
 
-ハンズオンの右にあるボタンを押してください。手順の詳細は[Studio Lab Communityのページ](https://github.com/aws-studiolab-jp/awesome-studio-lab-jp#%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%82%92%E5%AD%A6%E3%81%B6%E6%95%99%E6%9D%90)を参照してください。
+ハンズオンの実施には[Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/)を使用します。Studio Labは無料、メールアドレスのみでJupyterLabが利用できる環境です。
+
+アカウント登録後、ハンズオンの右に設置しているボタンを押すことで開始できます。手順の詳細は[Studio Lab Communityのページ](https://github.com/aws-studiolab-jp/awesome-studio-lab-jp#%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%82%92%E5%AD%A6%E3%81%B6%E6%95%99%E6%9D%90)を参照してください。
 
 ## Contribution
 
