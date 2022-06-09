@@ -1,17 +1,15 @@
-## My Project
+# ESG Evaluation Handson
 
-TODO: Fill this README out!
+[![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/icoxfog417/esg-evaluation-by-nlp/blob/master/notebooks/check_esg_evaluation_automatically.ipynb)
 
-Be sure to:
+自然言語処理でESG評価業務を効率化するハンズオンです。
 
-* Change the title in this README
-* Edit your repository description on GitHub
+* [気候変動に関する質問から、IRテキスト上の回答箇所を抽出](https://studiolab.sagemaker.aws/import/github/icoxfog417/esg-evaluation-by-nlp/blob/master/notebooks/check_esg_evaluation_automatically.ipynb)
 
-## Security
+## セキュリティに関するご連絡
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+[CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications)を参照してください。
 
-## License
+## ライセンス
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+本リポジトリはMIT-0ライセンスです. [LICENSE](LICENSE) ファイルを確認してください。

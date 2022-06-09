@@ -1,0 +1,23 @@
+name: esg-nlp
+channels:
+  - pytorch
+  - huggingface
+  - conda-forge
+dependencies:
+  - beautifulsoup4
+  - ipykernel
+  - ipython
+  - matplotlib-inline
+  - numpy
+  - pandas
+  - pdfminer.six
+  - requests
+  - scikit-learn
+  - scipy
+  - tqdm
+  - transformers
+  - pytorch
+  - spacy
+  - pip
+  - pip:
+    - -r requirements.txt
