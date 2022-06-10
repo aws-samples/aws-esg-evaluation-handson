@@ -1,5 +1,6 @@
 import numpy as np
 from tqdm import tqdm
+import torch
 from transformers import AutoModel, AutoTokenizer
 from transformers.pipelines import FeatureExtractionPipeline
 from sklearn.metrics.pairwise import cosine_similarity
@@ -29,7 +30,8 @@ def encode(pretrained_model_name, text, batch_size=10, pretrained_tokenizer_name
     tokenizer_name = pretrained_tokenizer_name if pretrained_tokenizer_name else pretrained_model_name
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
     print("Set the pipeline.")
-    nlp = DistilBertFeatureExtractionPipeline(model=model, tokenizer=tokenizer)
+    device = 0 if torch.cuda.is_available() else -1
+    nlp = DistilBertFeatureExtractionPipeline(model=model, tokenizer=tokenizer, device=device)
     print("Inference start.")
     # shape: (batch_size, number_of_token, vector_size)
     features = None
